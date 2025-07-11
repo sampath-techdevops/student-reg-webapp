@@ -12,8 +12,8 @@
 		<java.version>11</java.version>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
-		<sonar.host.url>http://13.57.206.25:9000</sonar.host.url>
-		<sonar.token>sqa_d44d4fc6beedbe361601d5de580fc958adb44ba6</sonar.token>
+		<sonar.host.url>http://172.31.47.221:9000</sonar.host.url>
+		<sonar.token>squ_9ff54f4b4fb34dea95b8d4792ae291fe02e1e29b</sonar.token>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 		<sonar.sources>src/main/java</sonar.sources>
@@ -25,11 +25,11 @@
     <distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<url>http://13.57.13.23:8081/repository/student-reg-webapp/</url>
+			<url>http://172.31.42.13:8081/repository/student-reg-webapp/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://13.57.13.23:8081/repository/student-reg-appp-snapshots/</url>
+			<url>http://172.31.42.13:8081/repository/student-reg-appp-snapshots/</url>
 		</snapshotRepository>
     </distributionManagement>
 
